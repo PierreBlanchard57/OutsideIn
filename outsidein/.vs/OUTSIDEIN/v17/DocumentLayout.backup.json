@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90A2B9C8-32BF-4F5A-A047-962DD996EE28}|OutsideIn.csproj|c:\\users\\laurent\\desktop\\outsidein\\outsidein\\playbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A2B9C8-32BF-4F5A-A047-962DD996EE28}|OutsideIn.csproj|solutionrelative:playbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayButton.cs",
+              "DocumentMoniker": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\PlayButton.cs",
+              "RelativeDocumentMoniker": "PlayButton.cs",
+              "ToolTip": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\PlayButton.cs",
+              "RelativeToolTip": "PlayButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T17:30:17.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
