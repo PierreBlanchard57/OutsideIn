@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90A2B9C8-32BF-4F5A-A047-962DD996EE28}|OutsideIn.csproj|c:\\users\\laurent\\desktop\\outsidein\\outsidein\\playbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90A2B9C8-32BF-4F5A-A047-962DD996EE28}|OutsideIn.csproj|solutionrelative:playbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\OutsideWorld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OutsideWorld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayButton.cs",
-              "DocumentMoniker": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\PlayButton.cs",
-              "RelativeDocumentMoniker": "PlayButton.cs",
-              "ToolTip": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\PlayButton.cs",
-              "RelativeToolTip": "PlayButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Title": "OutsideWorld.cs",
+              "DocumentMoniker": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\OutsideWorld.cs",
+              "RelativeDocumentMoniker": "OutsideWorld.cs",
+              "ToolTip": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\OutsideWorld.cs",
+              "RelativeToolTip": "OutsideWorld.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T17:30:17.191Z",
+              "WhenOpened": "2025-03-08T10:54:46.384Z",
               "EditorCaption": ""
             }
           ]

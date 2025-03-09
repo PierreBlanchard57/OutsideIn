@@ -1,5 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://ohnurlvta2g5"]
+[gd_scene load_steps=7 format=4 uid="uid://ohnurlvta2g5"]
 
+[ext_resource type="Script" uid="uid://bdmmy3kd638ni" path="res://OutsideWorld.cs" id="1_g4f6f"]
 [ext_resource type="Texture2D" uid="uid://cqqfq2d7a1m6t" path="res://nature-paltformer-tileset-16x16.png" id="1_imwt8"]
 [ext_resource type="Script" uid="uid://durbhnm0do8vf" path="res://Player.cs" id="2_8g1ct"]
 [ext_resource type="Texture2D" uid="uid://c24334c453so1" path="res://icon.svg" id="3_g4f6f"]
@@ -149,22 +150,27 @@ texture = ExtResource("1_imwt8")
 physics_layer_0/collision_layer = 1
 sources/1 = SubResource("TileSetAtlasSource_iewct")
 
-[node name="Node2D" type="Node2D"]
+[node name="Main" type="Node2D"]
+script = ExtResource("1_g4f6f")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
-position = Vector2(40, -21)
-scale = Vector2(4, 4)
-tile_map_data = PackedByteArray("AAAAAAkAAQAAAAAAAAABAAkAAQABAAAAAAACAAkAAQABAAAAAAADAAkAAQABAAAAAAAEAAkAAQAAAAIAAAAFAAkAAQABAAIAAAAGAAkAAQACAAIAAAAHAAkAAQACAAAAAAAIAAkAAQAGAAUAAAAJAAkAAQAGAAUAAAAKAAcAAQAGAAUAAAAKAAgAAQAGAAUAAAAKAAkAAQAGAAUAAAAEAAcAAQAAAAAAAAAEAAgAAQAAAAEAAAAFAAcAAQABAAAAAAAFAAgAAQABAAEAAAAGAAcAAQACAAAAAAAGAAgAAQACAAEAAAA=")
+tile_map_data = PackedByteArray("AAAAAAkAAQAAAAYAAAAAAAAAAQAAAAcAAAAAAAEAAQAAAAYAAAAAAAIAAQAAAAYAAAAAAAMAAQAAAAYAAAAAAAQAAQAAAAYAAAAAAAUAAQAAAAYAAAAAAAYAAQAAAAYAAAAAAAcAAQAAAAYAAAAAAAgAAQAAAAYAAAAAAAoAAQAAAAYAAAAAAAsAAQAAAAYAAAAAAAwAAQAAAAYAAAAAAA0AAQAAAAYAAAAAAA4AAQAAAAYAAAAAAA8AAQAAAAYAAAAAABAAAQAAAAYAAAAAABMAAQAAAAAAAAABABMAAQABAAAAAAACABMAAQABAAAAAAADABMAAQABAAAAAAAEABMAAQABAAAAAAAFABMAAQABAAAAAAAGABMAAQABAAAAAAAHABMAAQABAAAAAAAIABMAAQABAAAAAAAJABMAAQABAAAAAAAKABMAAQABAAAAAAALABMAAQABAAAAAAAMABMAAQABAAAAAAANABMAAQABAAAAAAAOABMAAQABAAAAAAAPABMAAQABAAAAAAAQABMAAQABAAAAAAARABMAAQABAAAAAAASABMAAQABAAAAAAATABMAAQABAAAAAAAUABMAAQABAAAAAAAVABMAAQABAAAAAAAWABMAAQABAAAAAAAXABMAAQABAAAAAAAYABMAAQABAAAAAAAZABMAAQABAAAAAAAaABMAAQABAAAAAAAbABMAAQABAAAAAAAcABMAAQABAAAAAAAdABMAAQACAAAAAAA=")
 tile_set = SubResource("TileSet_8g1ct")
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="OutsidePlayer" type="CharacterBody2D" parent="."]
 z_index = 1
-position = Vector2(184.618, 298.011)
+position = Vector2(52, 72)
 script = ExtResource("2_8g1ct")
 
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
-position = Vector2(35.3818, -28.0114)
+[node name="PlayerSprite" type="Sprite2D" parent="OutsidePlayer"]
+position = Vector2(18, 145)
+scale = Vector2(0.120313, 0.251125)
 texture = ExtResource("3_g4f6f")
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="CharacterBody2D"]
-polygon = PackedVector2Array(-27.6182, 37.9886, -27.6182, -92.0114, 100.382, -92.0114, 100.382, 37.9886)
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="OutsidePlayer"]
+position = Vector2(13, 151)
+scale = Vector2(0.137814, 0.258468)
+polygon = PackedVector2Array(-21.7685, 38.6896, -21.7685, -81.248, 94.33, -81.248, 94.33, 38.6896)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(320, 160)
