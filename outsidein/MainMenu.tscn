@@ -1,6 +1,83 @@
-[gd_scene load_steps=2 format=3 uid="uid://7khho3nkiwf7"]
+[gd_scene load_steps=5 format=4 uid="uid://7khho3nkiwf7"]
 
-[ext_resource type="Script" uid="uid://y2p46uiofp4b" path="res://PlayButton.cs" id="1_i26rj"]
+[ext_resource type="Script" uid="uid://y2p46uiofp4b" path="res://GUI/PlayButton.cs" id="1_i26rj"]
+[ext_resource type="Texture2D" uid="uid://cqqfq2d7a1m6t" path="res://nature-paltformer-tileset-16x16.png" id="2_eiy7p"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h7a2f"]
+texture = ExtResource("2_eiy7p")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+6:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+4:10/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_qoqlk"]
+sources/0 = SubResource("TileSetAtlasSource_h7a2f")
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -19,6 +96,7 @@ offset_bottom = 89.0
 text = "OutsideIn"
 
 [node name="Button" type="Button" parent="."]
+z_index = 1
 layout_mode = 0
 offset_left = 509.0
 offset_top = 463.0
@@ -28,3 +106,8 @@ text = "JOUER
 
 "
 script = ExtResource("1_i26rj")
+
+[node name="MenuTileMap" type="TileMapLayer" parent="."]
+scale = Vector2(1.8, 2.025)
+tile_map_data = PackedByteArray("AAAAABMAAAABAAAAAAABABMAAAABAAAAAAACABMAAAABAAAAAAADABMAAAABAAAAAAAEABMAAAABAAAAAAAFABMAAAABAAAAAAAGABMAAAABAAAAAAAHABMAAAACAAAAAAAOABMAAAABAAAAAAAPABMAAAABAAAAAAAQABMAAAABAAAAAAARABMAAAABAAAAAAASABMAAAABAAAAAAATABMAAAABAAAAAAAUABMAAAABAAAAAAAVABMAAAABAAAAAAAWABMAAAABAAAAAAAXABMAAAABAAAAAAAYABMAAAABAAAAAAAZABMAAAABAAAAAAAaABMAAAABAAAAAAAbABMAAAABAAAAAAAcABMAAAABAAAAAAAdABMAAAABAAAAAAAeABMAAAABAAAAAAAfABMAAAABAAAAAAAgABMAAAABAAAAAAAhABMAAAABAAAAAAAiABMAAAABAAAAAAAjABMAAAABAAAAAAAkABMAAAABAAAAAAAlABMAAAABAAAAAAAmABMAAAABAAAAAAAnABMAAAABAAAAAAANABMAAAAAAAAAAAAIABMAAAAFAAUAAAAJABMAAAAFAAUAAAAKABMAAAAFAAUAAAALABMAAAAFAAUAAAAMABMAAAAFAAUAAAAGABAAAAAAAAYAAAAHABAAAAABAAYAAAAIABAAAAABAAYAAAAJABAAAAABAAYAAAAKABAAAAABAAYAAAALABAAAAABAAYAAAAMABAAAAABAAYAAAANABAAAAABAAYAAAAOABAAAAACAAYAAAAFABAAAAAAAAMAAAAFABEAAAAAAAQAAAAFABIAAAAAAAUAAAAEABAAAAAGAAUAAAAUABIAAAACAAUAAAAUABEAAAACAAQAAAAUABAAAAACAAQAAAAUAA8AAAACAAMAAAAPABIAAAADAAYAAAAXABIAAAADAAYAAAAYABIAAAADAAYAAAAHABIAAAAGAAYAAAA=")
+tile_set = SubResource("TileSet_qoqlk")
