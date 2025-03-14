@@ -11,4 +11,11 @@ public partial class OutsideWorld : Node2D
         Camera2D camera = GetNode<Camera2D>("Camera2D");
         Utils.scaleTileMapToViewport(WORLD_WIDTH, WORLD_HEIGHT, GetViewport(),camera, GetNode<TileMapLayer>("OutsideTileMap"));
     }
+    public override void _Process(double delta)
+    {
+        if (Input.IsActionJustPressed("escape"))
+        {
+            GD.Print("Escape Pressed!");
+        }
+    }
 }

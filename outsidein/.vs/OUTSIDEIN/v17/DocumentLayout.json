@@ -11,8 +11,12 @@
       "RelativeMoniker": "D:0:0:{90A2B9C8-32BF-4F5A-A047-962DD996EE28}|OutsideIn.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\Utils\\Utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Utils\\Utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90A2B9C8-32BF-4F5A-A047-962DD996EE28}|OutsideIn.csproj|c:\\users\\laurent\\desktop\\outsidein\\outsidein\\gui\\playbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A2B9C8-32BF-4F5A-A047-962DD996EE28}|OutsideIn.csproj|solutionrelative:gui\\playbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A2B9C8-32BF-4F5A-A047-962DD996EE28}|OutsideIn.csproj|c:\\users\\laurent\\desktop\\outsidein\\outsidein\\gui\\guibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A2B9C8-32BF-4F5A-A047-962DD996EE28}|OutsideIn.csproj|solutionrelative:gui\\guibutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +30,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\Utils\\Utils.cs",
-              "RelativeDocumentMoniker": "Utils\\Utils.cs",
-              "ToolTip": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\Utils\\Utils.cs",
-              "RelativeToolTip": "Utils\\Utils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T18:30:47.186Z",
+              "WhenOpened": "2025-03-14T19:57:29.427Z",
               "EditorCaption": ""
             },
             {
@@ -45,22 +49,35 @@
               "RelativeDocumentMoniker": "OutsideWorld.cs",
               "ToolTip": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\OutsideWorld.cs",
               "RelativeToolTip": "OutsideWorld.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T10:54:43.188Z",
+              "WhenOpened": "2025-03-14T19:56:43.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCwAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GUIButton.cs",
+              "DocumentMoniker": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\GUI\\GUIButton.cs",
+              "RelativeDocumentMoniker": "GUI\\GUIButton.cs",
+              "ToolTip": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\GUI\\GUIButton.cs",
+              "RelativeToolTip": "GUI\\GUIButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T18:44:19.845Z",
+              "WhenOpened": "2025-03-14T17:36:27.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayButton.cs",
+              "DocumentMoniker": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\GUI\\PlayButton.cs",
+              "RelativeDocumentMoniker": "GUI\\PlayButton.cs",
+              "ToolTip": "C:\\Users\\Laurent\\Desktop\\OutsideIn\\outsidein\\GUI\\PlayButton.cs",
+              "RelativeToolTip": "GUI\\PlayButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:22:52.148Z",
               "EditorCaption": ""
             }
           ]

@@ -1,9 +1,12 @@
-[gd_scene load_steps=7 format=4 uid="uid://7khho3nkiwf7"]
+[gd_scene load_steps=10 format=4 uid="uid://7khho3nkiwf7"]
 
 [ext_resource type="Script" uid="uid://y2p46uiofp4b" path="res://GUI/PlayButton.cs" id="1_i26rj"]
 [ext_resource type="Texture2D" uid="uid://cqqfq2d7a1m6t" path="res://nature-paltformer-tileset-16x16.png" id="2_eiy7p"]
 [ext_resource type="Texture2D" uid="uid://ck066mprmnrxc" path="res://assets/MainMenu/title.png" id="3_h7a2f"]
+[ext_resource type="Texture2D" uid="uid://b17trfyag6awu" path="res://assets/MainMenu/button_background.png" id="4_iwfq2"]
 [ext_resource type="Texture2D" uid="uid://dboiw27ljfgug" path="res://assets/levels/blue_sky.png" id="4_qoqlk"]
+[ext_resource type="Texture2D" uid="uid://bqafnvpkwjvkn" path="res://assets/MainMenu/button_background_hovered.png" id="5_7r1g0"]
+[ext_resource type="Script" uid="uid://dqtrfv5pvy8v2" path="res://GUI/GUIButton.cs" id="7_cqjrg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h7a2f"]
 texture = ExtResource("2_eiy7p")
@@ -108,20 +111,30 @@ offset_right = 1381.0
 offset_bottom = 848.0
 texture = ExtResource("4_qoqlk")
 
-[node name="Button" type="Button" parent="."]
-z_index = 2
-layout_mode = 0
-offset_left = 509.0
-offset_top = 463.0
-offset_right = 687.0
-offset_bottom = 517.0
-text = "JOUER
-
-"
-script = ExtResource("1_i26rj")
-
 [node name="MenuTileMap" type="TileMapLayer" parent="."]
 z_index = 1
 scale = Vector2(1.8, 2.025)
 tile_map_data = PackedByteArray("AAAAABMAAAABAAAAAAABABMAAAABAAAAAAACABMAAAABAAAAAAADABMAAAABAAAAAAAEABMAAAABAAAAAAAFABMAAAABAAAAAAAGABMAAAABAAAAAAAHABMAAAACAAAAAAAOABMAAAABAAAAAAAPABMAAAABAAAAAAAQABMAAAABAAAAAAARABMAAAABAAAAAAASABMAAAABAAAAAAATABMAAAABAAAAAAAUABMAAAABAAAAAAAVABMAAAABAAAAAAAWABMAAAABAAAAAAAXABMAAAABAAAAAAAYABMAAAABAAAAAAAZABMAAAABAAAAAAAaABMAAAABAAAAAAAbABMAAAABAAAAAAAcABMAAAABAAAAAAAdABMAAAABAAAAAAAeABMAAAABAAAAAAAfABMAAAABAAAAAAAgABMAAAABAAAAAAAhABMAAAABAAAAAAAiABMAAAABAAAAAAAjABMAAAABAAAAAAAkABMAAAABAAAAAAAlABMAAAABAAAAAAAmABMAAAABAAAAAAAnABMAAAABAAAAAAANABMAAAAAAAAAAAAIABMAAAAFAAUAAAAJABMAAAAFAAUAAAAKABMAAAAFAAUAAAALABMAAAAFAAUAAAAMABMAAAAFAAUAAAAGABAAAAAAAAYAAAAHABAAAAABAAYAAAAIABAAAAABAAYAAAAJABAAAAABAAYAAAAKABAAAAABAAYAAAALABAAAAABAAYAAAAMABAAAAABAAYAAAANABAAAAABAAYAAAAOABAAAAACAAYAAAAFABAAAAAAAAMAAAAFABEAAAAAAAQAAAAFABIAAAAAAAUAAAAEABAAAAAGAAUAAAAUABIAAAACAAUAAAAUABEAAAACAAQAAAAUABAAAAACAAQAAAAUAA8AAAACAAMAAAAPABIAAAADAAYAAAAXABIAAAADAAYAAAAYABIAAAADAAYAAAAHABIAAAAGAAYAAAA=")
 tile_set = SubResource("TileSet_qoqlk")
+
+[node name="PlayButton" type="TextureButton" parent="."]
+z_index = 1
+layout_mode = 0
+offset_left = 523.0
+offset_top = 454.0
+offset_right = 651.0
+offset_bottom = 518.0
+texture_normal = ExtResource("4_iwfq2")
+texture_hover = ExtResource("5_7r1g0")
+script = ExtResource("1_i26rj")
+metadata/text = "play"
+
+[node name="LoadButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 522.814
+offset_top = 361.932
+offset_right = 562.814
+offset_bottom = 401.932
+texture_normal = ExtResource("4_iwfq2")
+script = ExtResource("7_cqjrg")
+metadata/text = "play"

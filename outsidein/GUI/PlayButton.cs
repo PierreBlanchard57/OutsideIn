@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class PlayButton : Button
+public partial class PlayButton : GUIButton
 {
     public override void _Pressed()
     {
